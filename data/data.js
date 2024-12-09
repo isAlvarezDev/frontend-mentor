@@ -1,6 +1,6 @@
 export default [
     {
-        img: '../design/qr-code-component/desktop.design.jpg',
+        src: '../design/qr-code-component/desktop-design.jpg',
         title: "QR code component",
         languages: ["HTML", "CSS"],
         difficulty: ["1", "NEWBIE"],

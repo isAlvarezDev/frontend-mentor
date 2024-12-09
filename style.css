@@ -20,6 +20,7 @@
 }
 
 h1 {
+    margin-top: 10px;
     text-align: center;
     font-size: clamp(1.5rem, 6vw, 2rem);
 }
@@ -41,8 +42,8 @@ img:hover {
 .main__grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-    gap: 12px;
-    padding: 12px;
+    gap: 1rem;
+    padding: 1rem;
 }
 
 .main__grid-item {
@@ -72,6 +73,7 @@ img:hover {
 }
 
 .main__span {
+    padding-right: 4px;
     font-weight: 700;
     font-size: 1.1rem;
 }
