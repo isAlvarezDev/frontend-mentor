@@ -13,7 +13,7 @@ data.forEach((data) => {
     mainGridItemDiv.className = "main__grid-item";
     const mainGridImgContainer = createMainGridImgContainer(
         data.url,
-        data.src,
+        data.imgSrc,
         data.alt
     )
     const mainGridSubtitleDiv = createMainGridSubtitle(data.languages, data.difficulty)
