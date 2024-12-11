@@ -7,5 +7,14 @@ export default [
         description: "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
         url: "./learning-paths/qr-code-component-main/index.html",
         alt: "qr code project"
-    }
+    },
+    {
+        imgSrc: './design/blog-card/desktop-design.jpg',
+        title: "Blog preview card",
+        languages: ["HTML", "CSS"],
+        difficulty: ["1", "NEWBIE"],
+        description: "This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model.",
+        url: "./learning-paths/blog-card/index.html",
+        alt: "blog preview card"
+    },
 ]

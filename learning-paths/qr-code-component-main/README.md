@@ -6,6 +6,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -16,7 +17,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Qr code component screenshot](./images/screenshot-qr-code.png)
+![Qr code component screenshot](./assets/images/screenshot-qr-code.webp)
+
+### Links
+
+- [Solution URL](./index.html)
+- [Live Site URL](https://isalvarezdev.github.io/frontend-mentor/learning-paths/qr-code-component-main/index.html)
 
 ## My process
 
