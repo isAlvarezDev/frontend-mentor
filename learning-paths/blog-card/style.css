@@ -30,7 +30,7 @@ body {
 }
 
 main {
-    max-width: 352px;
+    max-width: 380px;
     margin: var(--extra-large-spacing);
     padding: var(--large-spacing);
     background-color: var(--white);
@@ -39,7 +39,7 @@ main {
     border: 1px solid var(--black);
 }
 
-p, h1, .main__profile-section, .attribution {
+p, h1, .main__profile-section, .attribution, time {
     margin-top: var(--large-spacing);
     font-size: clamp(.8rem,4vw,1rem);
 }
@@ -61,7 +61,8 @@ img {
 }
 
 .main__img {
-    align-self: center;
+    display: block;
+    margin: auto;
 }
 
 .main__subtitle {
@@ -75,6 +76,10 @@ img {
 .main__subtitle:hover {
     background-color: var(--black);
     color: var(--yellow);
+}
+
+time {
+    display: block;
 }
 
 .main__description {
