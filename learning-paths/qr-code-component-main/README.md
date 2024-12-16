@@ -17,7 +17,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![Qr code component screenshot](./assets/images/screenshot-qr-code.webp)
+![Qr code component screenshot](../../assets/qr-code-component-main/images/screenshot-qr-code.webp)
 
 ### Links
 

@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot of the blog preview card](./assets/images/screenshot-blog-preview-card.webp)
+![Screenshot of the blog preview card](../../assets/blog-card/images/screenshot-blog-preview-card.webp)
 
 ### Links
 
