@@ -15,6 +15,15 @@ export default [
         difficulty: ["1", "NEWBIE"],
         description: "This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model.",
         url: "./learning-paths/blog-card/index.html",
-        alt: "blog preview card"
+        alt: "blog preview card project"
+    },
+    {
+        imgSrc: './design/social-links-profile/desktop-design.jpg',
+        title: "Social links profile",
+        languages: ["HTML", "CSS"],
+        difficulty: ["1", "NEWBIE"],
+        description: "In this small project, you'll build out your social link-sharing profile. You can even personalize it and use it to share all your social profiles!",
+        url: "./learning-paths/social-links-profile/index.html",
+        alt: "social links profile project"
     },
 ]
