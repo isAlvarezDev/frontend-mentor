@@ -1,23 +1,92 @@
+@import url(../../assets/social-links-profile/fonts/fonts.css);
+
 :root {
     --bg-color: hsl(0, 0%, 8%);
-    --color: hsl(0, 0%, 100%);
+    --main-bg-color: hsl(0, 0%, 12%);
+    --a-bg-color: hsl(0, 0%, 20%);
+    --text-color: hsl(0, 0%, 100%);
+    --green-color: hsl(75, 94%, 57%);
+    --small-spacing: .5rem;
+    --medium-spacing: 1rem;
+    --large-spacing: 2rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
-    padding: 0;
-    margin: 0;
     min-height: 100dvh;
     display: grid;
     grid-template-rows: 1fr auto;
     place-content: center;
     place-items: center;
-    box-sizing: border-box;
     background-color: var(--bg-color);
-    color: var(--color);
+    color: var(--text-color);
+    font-family: Inter;
 }
 
 main {
-    max-width: 254px;
+    padding: var(--large-spacing);
+    text-align: center;
+    max-width: 350px;
+    background-color: var(--main-bg-color);
+    border-radius: var(--small-spacing);
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+    width: 60px;
+    margin-bottom: var(--medium-spacing);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: var(--small-spacing);
+}
+
+h2 {
+    color: var(--green-color);
+    font-size: 1rem;
+    margin-bottom: var(--large-spacing);
+}
+
+p,
+.main__a {
+    font-size: 14px;
+}
+
+p, .attribution {
+    margin-bottom: var(--small-spacing);
+}
+
+.main__a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background-color: var(--a-bg-color);
+    transition: background-color 0.07s;
+    padding: 0.7rem var(--medium-spacing);
+    border-radius: var(--small-spacing);
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+.main__a:hover {
+    background-color: var(--green-color);
+    color: var(--bg-color);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    display: inline-block;
+    color: hsl(228, 45%, 44%);
+    background-color: unset;
+}
