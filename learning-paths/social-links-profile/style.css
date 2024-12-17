@@ -1,11 +1,11 @@
 @import url(../../assets/social-links-profile/fonts/fonts.css);
 
 :root {
-    --bg-color: hsl(0, 0%, 8%);
-    --main-bg-color: hsl(0, 0%, 12%);
-    --a-bg-color: hsl(0, 0%, 20%);
-    --text-color: hsl(0, 0%, 100%);
-    --green-color: hsl(75, 94%, 57%);
+    --black: hsl(0, 0%, 8%);
+    --dark-gray: hsl(0, 0%, 12%);
+    --light-gray: hsl(0, 0%, 20%);
+    --white: hsl(0, 0%, 100%);
+    --lime: hsl(75, 94%, 57%);
     --small-spacing: .5rem;
     --medium-spacing: 1rem;
     --large-spacing: 2rem;
@@ -23,16 +23,15 @@ body {
     grid-template-rows: 1fr auto;
     place-content: center;
     place-items: center;
-    background-color: var(--bg-color);
-    color: var(--text-color);
+    background-color: var(--black);
+    color: var(--white);
     font-family: Inter;
 }
 
 main {
     padding: var(--large-spacing);
     text-align: center;
-    max-width: 350px;
-    background-color: var(--main-bg-color);
+    background-color: var(--dark-gray);
     border-radius: var(--small-spacing);
 }
 
@@ -49,7 +48,7 @@ h1 {
 }
 
 h2 {
-    color: var(--green-color);
+    color: var(--lime);
     font-size: 1rem;
     margin-bottom: var(--large-spacing);
 }
@@ -67,7 +66,7 @@ p, .attribution {
     display: block;
     text-decoration: none;
     color: inherit;
-    background-color: var(--a-bg-color);
+    background-color: var(--light-gray);
     transition: background-color 0.07s;
     padding: 0.7rem var(--medium-spacing);
     border-radius: var(--small-spacing);
@@ -76,8 +75,8 @@ p, .attribution {
 }
 
 .main__a:hover {
-    background-color: var(--green-color);
-    color: var(--bg-color);
+    background-color: var(--lime);
+    color: var(--black);
 }
 
 .attribution {
