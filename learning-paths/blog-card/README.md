@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](./index.html)
-- [Live Site URL](https://isalvarezdev.github.io/frontend-mentor/learning-paths/blog-card/index.html)
+- [Solution URL here](./index.html)
+- [Live Site URL here](https://isalvarezdev.github.io/frontend-mentor/learning-paths/blog-card/index.html)
 
 ## My process
 
