@@ -26,4 +26,13 @@ export default [
         url: "./learning-paths/social-links-profile/index.html",
         alt: "social links profile project"
     },
+    {
+        imgSrc: './design/recipe-page/desktop-design.jpg',
+        title: "Recipe page",
+        languages: ["HTML", "CSS"],
+        difficulty: ["1", "NEWBIE"],
+        description: "This challenge will help you focus on writing semantic HTML. Ensure you think through what HTML elements are most appropriate for each piece of content.",
+        url: "./learning-paths/social-links-profile/index.html",
+        alt: "recipe page project"
+    },
 ]
