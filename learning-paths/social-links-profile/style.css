@@ -28,7 +28,7 @@ body {
     font-family: Inter;
 }
 
-main {
+div {
     padding: var(--large-spacing);
     text-align: center;
     background-color: var(--dark-gray);
@@ -38,7 +38,7 @@ main {
 img {
     max-width: 100%;
     border-radius: 50%;
-    width: 60px;
+    width: 70px;
     margin-bottom: var(--medium-spacing);
 }
 
@@ -47,22 +47,23 @@ h1 {
     margin-bottom: var(--small-spacing);
 }
 
-h2 {
+span {
+    display: block;
     color: var(--lime);
     font-size: 1rem;
-    margin-bottom: var(--large-spacing);
+    margin-bottom: var(--medium-spacing);
 }
 
 p,
-.main__a {
+nav {
     font-size: 14px;
 }
 
-p, .attribution {
+p, footer {
     margin-bottom: var(--small-spacing);
 }
 
-.main__a {
+nav > a {
     display: block;
     text-decoration: none;
     color: inherit;
@@ -74,17 +75,17 @@ p, .attribution {
     font-weight: 500;
 }
 
-.main__a:hover {
+nav > a:hover {
     background-color: var(--lime);
     color: var(--black);
 }
 
-.attribution {
+footer {
     font-size: 11px;
     text-align: center;
 }
 
-.attribution a {
+footer a {
     display: inline-block;
     color: hsl(228, 45%, 44%);
     background-color: unset;
