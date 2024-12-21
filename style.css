@@ -17,6 +17,7 @@
 .main {
     max-width: 1200px;
     margin: auto;
+    container: main / inline-size;
 }
 
 h1 {
@@ -100,4 +101,10 @@ img:hover {
 
 .main__span--padding, .main__span--background-lightblue {
     padding: 3px 10px;
+}
+
+@container main (max-width: 670px) {
+    .main__grid {
+        grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    }
 }
