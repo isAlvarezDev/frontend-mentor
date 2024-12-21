@@ -25,6 +25,7 @@
 
 body {
     font-family: Outfit;
+    margin: 6.4rem 0;
 }
 
 header,
@@ -166,6 +167,10 @@ footer {
 
 footer>a {
     color: var(--dark-blue);
+}
+
+@media screen and (max-width: 650px) {
+    body {margin: 0;}
 }
 
 @media screen and (max-width: 375px) {
