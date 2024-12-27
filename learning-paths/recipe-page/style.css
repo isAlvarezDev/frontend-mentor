@@ -14,7 +14,6 @@
     --medium-spacing: 1rem;
     --big-spacing: 1.5rem;
     --large-spacing: 2rem;
-    background-color: var(--stone-100);
 }
 
 * {
@@ -25,7 +24,9 @@
 
 body {
     font-family: Outfit;
-    margin: 6.4rem 0;
+    margin-top: 6.4rem;
+    margin-bottom: var(--medium-spacing);
+    background-color: var(--stone-100);
 }
 
 header,
