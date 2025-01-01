@@ -11,21 +11,21 @@ This portfolio showcases a collection of projects I've completed following the c
         <tr>
             <td>
                 <img src="./design/qr-code-component/desktop-design.jpg"/>
-                <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/learning-paths/qr-code-component-main/index.html">QR Code</a></h2>
+                <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/learning-paths/qr-code-component-main/">QR Code</a></h2>
             </td>
             <td>
                 <img src="./design/blog-card/desktop-design.jpg"/>
-                <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/learning-paths/blog-card/index.html">Blog Card</a></h2>
+                <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/learning-paths/blog-card/">Blog Card</a></h2>
             </td>
         </tr>
         <tr>
             <td>
                 <img src="./design/social-links-profile/desktop-design.jpg"/>
-                <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/learning-paths/social-links-profile/index.html">Social Links Profile</a></h2>
+                <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/learning-paths/social-links-profile/">Social Links Profile</a></h2>
             </td>
             <td>
                 <img src="./design/recipe-page/desktop-project-design.jpg"/>
-                <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/learning-paths/recipe-page/index.html">Recipe Page</a></h2>
+                <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/learning-paths/recipe-page/">Recipe Page</a></h2>
             </td>
         </tr>
     </tbody>
