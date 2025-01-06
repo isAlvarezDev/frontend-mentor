@@ -1,0 +1,28 @@
+:root {
+    --dark-cyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-grayish-blue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: clamp(0.875rem, 0.75rem + 1.5vw, 2rem);
+}
+
+body {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+    place-items: center;
+    background-color: var(--cream);
+}
+
+footer { font-size: 11px; text-align: center; }
+footer a { color: hsl(228, 45%, 44%); }
