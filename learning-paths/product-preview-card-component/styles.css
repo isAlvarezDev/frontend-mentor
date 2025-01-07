@@ -4,6 +4,9 @@
     --very-dark-blue: hsl(212, 21%, 14%);
     --dark-grayish-blue: hsl(228, 12%, 48%);
     --white: hsl(0, 0%, 100%);
+    --small-spacing: .9rem;
+    --medium-spacing: 2rem;
+    --border-radius: 0.4rem
 }
 
 * {
@@ -22,6 +25,70 @@ body {
     grid-template-rows: 1fr auto;
     place-items: center;
     background-color: var(--cream);
+    padding: var(--small-spacing);
+    color: var(--dark-grayish-blue);
+}
+
+img, picture {
+    display: block;
+    max-inline-size: 100%;
+    block-size: auto;
+    border-start-start-radius: var(--border-radius);
+    border-end-start-radius: var(--border-radius);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 12rem);
+}
+
+.main__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: var(--white);
+    padding-inline: var(--small-spacing);
+    border-start-end-radius: var(--border-radius);
+    border-end-end-radius: var(--border-radius);
+}
+
+h1 {
+    color: initial;
+}
+
+.main__p {
+    font-size: clamp(0.6rem, 0.75rem + 1.5vw, .74rem);
+}
+
+.main__small-price {
+    color: var(--dark-cyan);
+}
+
+.main__high-price {
+    text-decoration:line-through;
+    font-size: clamp(.51rem, 0.75rem + 1.5vw, .61rem);
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-cyan);
+    color: var(--white);
+    border: none;
+    border-radius: .30rem;
+    padding: .5rem var(--medium-spacing);
+    font-weight: bold;
+    gap: .30rem;
+    max-inline-size: 80%;
+    align-self: center;
+}
+
+@media (hover: hover) {
+    button:hover {
+        background-color: var(--very-dark-blue);
+        cursor: pointer;
+    }
 }
 
 footer { font-size: 11px; text-align: center; }
