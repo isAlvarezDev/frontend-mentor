@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL here](./index.html)
-- Live Site URL: [Live site URL here](https://isalvarezdev.github.io/frontend-mentor/learning-paths/social-links-profile/index.html)
+- Live Site URL: [Live site URL here](https://isalvarezdev.github.io/frontend-mentor/learning-paths/social-links-profile/)
 
 ## My process
 

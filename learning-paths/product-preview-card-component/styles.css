@@ -79,6 +79,7 @@ h1, .main__prices {
 .main__small-price {
     color: var(--dark-cyan);
     font-family: inherit;
+    text-decoration: none;
 }
 
 .main__high-price {
