@@ -38,7 +38,7 @@ img, picture {
     border-end-start-radius: var(--border-radius);
 }
 
-.wrapper {
+.product {
     display: grid;
     grid-template-columns: repeat(2, 11.5rem);
 }
@@ -110,7 +110,7 @@ button {
 }
 
 @media (max-width: 29rem) {
-    .wrapper {
+    .product {
         grid-template-columns: auto;
         grid-template-rows: repeat(2, 1fr);
     }
