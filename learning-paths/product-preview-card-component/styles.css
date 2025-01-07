@@ -13,6 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat";
 }
 
 html {
@@ -52,21 +53,42 @@ img, picture {
     border-end-end-radius: var(--border-radius);
 }
 
+.main__perfume {
+    font-weight: 500;
+}
+
 h1 {
     color: initial;
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 1.2rem);
+}
+
+.main__p, .main__perfume {
+    font-size: clamp(.51rem, 0.75rem + 1.5vw, .54rem);
 }
 
 .main__p {
-    font-size: clamp(0.6rem, 0.75rem + 1.5vw, .74rem);
+    line-height: 1.5;
+}
+
+.main__prices {
+    display: flex;
+    justify-content: space-between;
+    max-inline-size: 80%;
+}
+
+h1, .main__prices {
+    font-family: "Fraunces";
 }
 
 .main__small-price {
     color: var(--dark-cyan);
+    font-family: inherit;
 }
 
 .main__high-price {
     text-decoration:line-through;
     font-size: clamp(.51rem, 0.75rem + 1.5vw, .61rem);
+    align-self: top;
 }
 
 button {
@@ -78,10 +100,10 @@ button {
     border: none;
     border-radius: .30rem;
     padding: .5rem var(--medium-spacing);
-    font-weight: bold;
     gap: .30rem;
     max-inline-size: 80%;
     align-self: center;
+    font-weight: 700;
 }
 
 @media (hover: hover) {
