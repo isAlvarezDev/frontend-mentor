@@ -40,7 +40,7 @@ img, picture {
 
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(2, 12rem);
+    grid-template-columns: repeat(2, 11.5rem);
 }
 
 .main__description {
@@ -51,10 +51,6 @@ img, picture {
     padding-inline: var(--small-spacing);
     border-start-end-radius: var(--border-radius);
     border-end-end-radius: var(--border-radius);
-}
-
-.main__perfume {
-    font-weight: 500;
 }
 
 h1 {
@@ -93,23 +89,44 @@ h1, .main__prices {
 
 button {
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: var(--dark-cyan);
     color: var(--white);
     border: none;
     border-radius: .30rem;
     padding: .5rem var(--medium-spacing);
-    gap: .30rem;
+    gap: .2rem;
     max-inline-size: 80%;
     align-self: center;
     font-weight: 700;
+    font-size: clamp(.3rem,.75rem + 1.5vw, .4rem);
 }
 
 @media (hover: hover) {
     button:hover {
         background-color: var(--very-dark-blue);
         cursor: pointer;
+    }
+}
+
+@media (max-width: 29rem) {
+    .wrapper {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    img,picture, .main__description {
+        border-radius: 0;
+    }
+
+    img,picture {
+        border-start-start-radius: var(--border-radius);
+        border-start-end-radius: var(--border-radius);
+    }
+
+    .main__description {
+        border-end-start-radius: var(--border-radius);
+        border-end-end-radius: var(--border-radius);
     }
 }
 

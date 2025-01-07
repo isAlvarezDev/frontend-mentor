@@ -35,4 +35,13 @@ export default [
         url: "./learning-paths/recipe-page/",
         alt: "recipe page project"
     },
+    {
+        imgSrc: './design/product-preview-card-component/desktop-design.jpg',
+        title: "Product preview card",
+        languages: ["HTML", "CSS"],
+        difficulty: ["1", "NEWBIE"],
+        description: "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.",
+        url: "./learning-paths/product-preview-card-component/",
+        alt: "product preview card component project"
+    },
 ]
