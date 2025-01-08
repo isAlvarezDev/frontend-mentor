@@ -55,15 +55,15 @@ img, picture {
 
 h1 {
     color: initial;
-    font-size: clamp(1rem, 0.75rem + 1.5vw, 1.2rem);
+    font-size: clamp(1rem, 0.75rem + 1.5vw, 1rem);
 }
 
 .main__p, .main__perfume {
-    font-size: clamp(.51rem, 0.75rem + 1.5vw, .54rem);
+    font-size: clamp(.45rem, 0.75rem + 1.5vw, .50rem);
 }
 
 .main__p {
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
 .main__prices {
@@ -84,7 +84,7 @@ h1, .main__prices {
 
 .main__high-price {
     text-decoration:line-through;
-    font-size: clamp(.51rem, 0.75rem + 1.5vw, .61rem);
+    font-size: clamp(.4rem, 0.75rem + 1.5vw, .52rem);
     align-self: top;
 }
 
