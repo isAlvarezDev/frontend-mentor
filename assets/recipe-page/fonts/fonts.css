@@ -1,13 +1,11 @@
-@import url(../../qr-code-component-main/fonts/fonts.css);
-
 @font-face {
     font-family: Outfit;
-    src: url(../../recipe-page/fonts/outfit/static/Outfit-SemiBold.ttf) format(truetype);
+    src: url("../../recipe-page/fonts/outfit/static/Outfit-SemiBold.woff2") format("woff2");
     font-weight: 600;
 }
 
 @font-face {
     font-family: Young-Serif;
-    src: url(../../recipe-page/fonts/young-serif/YoungSerif-Regular.ttf) format(truetype);
+    src: url("../../recipe-page/fonts/young-serif/YoungSerif-Regular.woff2") format("woff2");
     font-weight: 400;
 }
