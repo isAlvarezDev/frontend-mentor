@@ -1,0 +1,55 @@
+:root {
+    background-color: hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+
+body {
+    max-width: 1440px;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: 1fr auto;
+    place-content: center;
+    place-items: center;
+    margin: auto;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1rem;
+    padding-bottom: 3rem;
+    border-radius: 1rem;
+    max-width: 290px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+h1, p {
+    padding: 0 6px;
+    text-align: center;
+    font-family: Outfit;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+p  {
+    margin: 0;
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+}
+
+footer > p {
+    margin: 6px 0;
+}
+
+footer {
+    display: inline-flex;
+}
