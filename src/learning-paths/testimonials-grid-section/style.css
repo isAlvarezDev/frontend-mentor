@@ -4,4 +4,21 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 13px;
+}
+
+@theme {
+    /*Primary colors*/
+    --color-purple-50: hsl(260, 100%, 95%);
+    --color-purple-300: hsl(264, 82%, 80%);
+    --color-purple-500: hsl(263, 55%, 52%);
+    
+    /*Neutral colors*/
+    --color-white: hsl(0, 0%, 100%);
+    --color-gray-100: hsl(214, 17%, 92%);
+    --color-gray-200: hsl(0, 0%, 81%);
+    --color-gray-400: hsl(224, 10%, 45%);
+    --color-gray-500: hsl(217, 19%, 35%);
+    --color-dark-blue: hsl(219, 29%, 14%);
+    --color-black: hsl(0, 0%, 7%)
 }

@@ -1,0 +1,16 @@
+@font-face {
+  font-display: fallback;
+  font-family: "Barlow Semi Condensed";
+  src: local("Barlow Semi Condensed"), local("Barlow-Semi-Condensed"),
+    url("./BarlowSemiCondensed-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+
+@font-face {
+    font-display: fallback;
+    font-family: "Barlow Semi Condensed";
+    src: local("Barlow Semi Condensed"), local("Barlow-Semi-Condensed"),
+      url("./BarlowSemiCondensed-SemiBold.woff2") format("woff2");
+    font-weight: 600;
+  }
+  
