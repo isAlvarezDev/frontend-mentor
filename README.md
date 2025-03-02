@@ -11,7 +11,7 @@ This portfolio showcases a collection of projects I've completed following the L
         <tr>
             <td>
                 <img src="./public/designs/qr-code-component/desktop-design.jpg"/>
-                <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/learning-paths/qr-code-component/">Qr Code</a></h2>
+                <h2 align='center'><a href="https://isalvarezdev.github.io/src/frontend-mentor/learning-paths/qr-code-component/">Qr Code</a></h2>
             </td>
         </tr>
     </tbody>
