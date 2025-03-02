@@ -11,7 +11,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        qrCodeComponent: resolve(__dirname, 'src/learning-paths/qr-code-component/index.html')
+        qrCodeComponent: resolve(__dirname, 'src/learning-paths/qr-code-component/index.html'),
+        blogCard: resolve(__dirname, "src/learning-paths/blog-card/index.html")
       }
     }
   }

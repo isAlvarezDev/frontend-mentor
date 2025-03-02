@@ -5,7 +5,16 @@
       "languages": ["HTML", "CSS"],
       "difficulty": ["1", "NEWBIE"],
       "description": "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
-      "url": "src/learning-paths/qr-code-component/index.html",
+      "url": "src/learning-paths/qr-code-component/",
       "alt": "qr code project"
+    },
+    {
+      "imgSrc": "./designs/blog-card/desktop-design.jpg",
+      "title": "Blog preview card",
+      "languages": ["HTML", "CSS"],
+      "difficulty": ["1", "NEWBIE"],
+      "description": "This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model.",
+      "url": "src/learning-paths/blog-card/",
+      "alt": "blog preview card project"
     }
 ]
