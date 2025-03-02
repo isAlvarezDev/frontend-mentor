@@ -52,5 +52,14 @@
       "description": "A nice layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts.",
       "url": "src/learning-paths/four-card-section/",
       "alt": "four card section feature project"
+    },
+    {
+      "imgSrc": "./designs/testimonials-grid-section/desktop-design.jpg",
+      "title": "Testimonials grid section",
+      "languages": ["HTML", "CSS"],
+      "difficulty": ["2", "JUNIOR"],
+      "description": "This challenge will be perfect practice for anyone wanting to test their CSS Grid skills. Grid is such a powerful addition to CSS, so it's worth getting to grips with it!",
+      "url": "src/learning-paths/testimonials-grid-section/",
+      "alt": "testimonials grid section project"
     }
 ]
