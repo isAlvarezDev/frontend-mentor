@@ -20,5 +20,7 @@
     --color-gray-400: hsl(224, 10%, 45%);
     --color-gray-500: hsl(217, 19%, 35%);
     --color-dark-blue: hsl(219, 29%, 14%);
-    --color-black: hsl(0, 0%, 7%)
+    --color-black: hsl(0, 0%, 7%);
+
+    --font-barlow-semi-condensed: 'Barlow Semi Condensed'
 }
