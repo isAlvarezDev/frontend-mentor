@@ -1,0 +1,10 @@
+@font-face {
+    font-display: fallback;
+    font-family: "Fraunces";
+    font-style: normal;
+    src: local("Fraunces Bold"), local("Fraunces-Bold"),
+     url("./Fraunces-Bold.woff2") format("woff2");
+    font-weight: 700;
+    size-adjust: 124%;
+    ascent-override: 87%;
+}

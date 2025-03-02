@@ -14,7 +14,8 @@ export default defineConfig({
         qrCodeComponent: resolve(__dirname, 'src/learning-paths/qr-code-component/index.html'),
         blogCard: resolve(__dirname, "src/learning-paths/blog-card/index.html"),
         socialLinks: resolve(__dirname, 'src/learning-paths/social-links-profile/index.html'),
-        recipePage: resolve(__dirname, 'src/learning-paths/recipe-page/index.html')
+        recipePage: resolve(__dirname, 'src/learning-paths/recipe-page/index.html'),
+        productPreviewCard: resolve(__dirname, 'src/learning-paths/product-preview-card-component/index.html'),
       }
     }
   }

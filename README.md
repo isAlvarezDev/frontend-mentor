@@ -28,6 +28,12 @@ This portfolio showcases a collection of projects I've completed following the L
                 <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/src/learning-paths/recipe-page/">Recipe Page</a></h2>
             </td>
         </tr>
+        <tr>
+            <td>
+                <img src="./public/design/product-preview-card-component/desktop-design.jpg" />
+                <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/src/learning-paths/product-preview-card-component/">Product Preview Card</a></h2>
+            </td>
+        </tr>
     </tbody>
 </table>
 
