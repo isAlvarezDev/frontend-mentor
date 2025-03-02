@@ -12,7 +12,8 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         qrCodeComponent: resolve(__dirname, 'src/learning-paths/qr-code-component/index.html'),
-        blogCard: resolve(__dirname, "src/learning-paths/blog-card/index.html")
+        blogCard: resolve(__dirname, "src/learning-paths/blog-card/index.html"),
+        socialLinks: resolve(__dirname, 'src/learning-paths/social-links-profile/index.html')
       }
     }
   }
