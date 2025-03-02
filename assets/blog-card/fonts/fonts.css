@@ -1,0 +1,11 @@
+@font-face {
+    font-family: Figtree;
+    src: url("./static/Figtree-SemiBold.woff2") format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Figtree;
+    src: url("./static/Figtree-ExtraBold.woff2") format('woff2');
+    font-weight: 800;
+}
