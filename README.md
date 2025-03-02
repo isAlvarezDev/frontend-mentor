@@ -18,6 +18,12 @@ This portfolio showcases a collection of projects I've completed following the L
                 <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/src/learning-paths/blog-card/">Blog Card</a></h2>
             </td>
         </tr>
+        <tr>
+            <td>
+                <img src="./public/designs/social-links-profile/desktop-design.jpg"/>
+                <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/src/learning-paths/social-links-profile/">Social Links Profile</a></h2>
+            </td>
+        </tr>
     </tbody>
 </table>
 
