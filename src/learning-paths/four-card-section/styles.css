@@ -1,0 +1,127 @@
+:root {
+  --grey-400: hsl(212, 6%, 44%);
+  --grey-500: hsl(234, 12%, 34%);
+  --white: hsl(0, 0%, 100%);
+  --red: hsl(0, 78%, 62%);
+  --cyan: hsl(180, 62%, 55%);
+  --orange: hsl(34, 97%, 64%);
+  --blue: hsl(212, 86%, 64%);
+  --dark-blue: hsl(228, 45%, 44%);
+  --twilight-blue: hsla(212 86% 64% / 0.25);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-inline-size: 68.75rem;
+  margin: 0 auto;
+  background-color: var(--white);
+  font-family: "Poppins";
+  font-size: 15px;
+  color: var(--grey-400);
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  place-items: center;
+  background-color: var(--white);
+}
+
+header {
+  text-align: center;
+}
+
+header p {
+  font-size: clamp(0.9rem, 0.8942rem + 0.4038vw, 1rem);
+  margin-block: 1em;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: clamp(1.404rem, 1.2288rem + 0.876vw, 2rem);
+  margin-block: 0.67em;
+}
+
+span {
+  font-weight: 200;
+}
+
+header,
+main,
+footer {
+  margin-inline: 1rem;
+}
+.cards-container {
+  margin-block-start: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-self: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+section {
+  max-inline-size: 326px;
+}
+
+.card {
+  padding: 2em;
+  border-radius: 5px;
+  box-shadow: 0 5px 9px var(--twilight-blue);
+  border-block-start-width: 4px;
+  border-block-start-style: solid;
+}
+
+.card p {
+  font-size: clamp(0.8125rem, 0.7612rem + 0.2564vw, 0.8975rem);
+  margin-block-start: 0.2rem;
+}
+
+.cyan-top-border {
+  border-block-start-color: var(--cyan);
+}
+.red-top-border {
+  border-block-start-color: var(--red);
+}
+.orange-top-border {
+  border-block-start-color: var(--orange);
+}
+.blue-top-border {
+  border-block-start-color: var(--blue);
+}
+
+h1,
+.card-title {
+  color: var(--grey-500);
+}
+
+.cards-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+img {
+  display: block;
+  align-self: end;
+  justify-self: end;
+  margin-block-start: 1.1rem;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-block-start: 0.6rem;
+}
+.attribution a {
+  color: var(--dark-blue);
+}
+
+@media (max-width: 46.67rem) {
+  h1 {
+    margin-block-end: 1.4rem;
+  }
+}

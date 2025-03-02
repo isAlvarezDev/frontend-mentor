@@ -16,6 +16,7 @@ export default defineConfig({
         socialLinks: resolve(__dirname, 'src/learning-paths/social-links-profile/index.html'),
         recipePage: resolve(__dirname, 'src/learning-paths/recipe-page/index.html'),
         productPreviewCard: resolve(__dirname, 'src/learning-paths/product-preview-card-component/index.html'),
+        fourCardSection: resolve(__dirname, 'src/learning-paths/four-card-section/index.html')
       }
     }
   }

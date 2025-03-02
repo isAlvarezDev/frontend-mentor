@@ -43,5 +43,14 @@
       "description": "This HTML & CSS-only challenge will be perfect for anyone starting to build responsive projects.",
       "url": "src/learning-paths/product-preview-card-component/",
       "alt": "product preview card component project"
+    },
+    {
+      "imgSrc": "./designs/four-card-section/desktop-design.jpg",
+      "title": "Four card section",
+      "languages": ["HTML", "CSS"],
+      "difficulty": ["1", "NEWBIE"],
+      "description": "A nice layout-based challenge for beginners. This will test anyone who is new to multi-column and responsive layouts.",
+      "url": "src/learning-paths/four-card-section/",
+      "alt": "four card section feature project"
     }
 ]

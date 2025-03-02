@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL here](./index.html)
-- [Live Site URL here](https://isalvarezdev.github.io/frontend-mentor/learning-paths/blog-card/)
+- [Live Site URL here](https://isalvarezdev.github.io/frontend-mentor/src/learning-paths/blog-card/)
 
 ## My process
 

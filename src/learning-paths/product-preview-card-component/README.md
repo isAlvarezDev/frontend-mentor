@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL here](./index.html)
-- [Live site URL here](https://isalvarezdev.github.io/frontend-mentor/learning-paths/product-preview-card-component/)
+- [Live site URL here](https://isalvarezdev.github.io/frontend-mentor/src/learning-paths/product-preview-card-component/)
 
 ## My process
 
