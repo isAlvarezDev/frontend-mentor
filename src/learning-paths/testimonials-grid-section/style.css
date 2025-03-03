@@ -10,36 +10,58 @@
     /*Neutral colors*/
     --color-white: hsl(0, 0%, 100%);
     --color-light-white: hsl(0,0%, 96%);
-    --color-gray-100: hsl(214, 17%, 92%);
-    --color-gray-200: hsl(0, 0%, 81%);
-    --color-gray-400: hsl(224, 10%, 45%);
-    --color-gray-500: hsl(217, 19%, 35%);
+    --color-grey-100: hsl(214, 17%, 92%);
+    --color-grey-200: hsl(0, 0%, 81%);
+    --color-grey-400: hsl(224, 10%, 45%);
+    --color-grey-500: hsl(217, 19%, 35%);
     --color-dark-blue: hsl(219, 29%, 14%);
     --color-black: hsl(0, 0%, 7%);
 
-    --font-barlow-semi-condensed: 'Barlow Semi Condensed'
+    --font-barlow-semi-condensed: 'Barlow Semi Condensed';
+
+    --shadow-3xl: 5px 15px 50px var(--color-dark-blue)
 }
 
 @layer base {
-    section {
+    article {
         @apply p-[2.077rem] rounded-lg;
     }
 
     h2{
-        @apply text-2xl font-semibold;
+        @apply text-2xl font-semibold leading-7;
     }
 
-    blockquote {
-        @apply mt-4;
-    }
-
-    img {
-        @apply w-10 h-10 rounded-full border-2
+    a{
+        @apply text-[hsl(228,45%,44%)];
     }
 }
 
 @layer components {
     .alumni-card {
-        @apply flex gap-3 items-center
+        @apply flex gap-3 items-center;
+    }
+
+    .graduated {
+        @apply text-[1.09rem];
+    }
+
+    .alumni-name {
+        @apply text-[1.3rem] font-semibold align-bottom;
+    }
+
+    .alumni-description {
+        @apply mt-4 text-[clamp(1.15rem,4vw,1.25rem)] leading-4 font-medium;
+    }
+
+    .alumni-photo {
+        @apply w-10 h-10 rounded-full border-2
+    }
+
+    .quotation {
+        @apply max-lg:hidden lg:block absolute top-2 right-8 opacity-60 w-auto h-auto;
+    }
+
+    .shadows {
+        @apply shadow-3xl shadow-dark-blue/50
     }
 }

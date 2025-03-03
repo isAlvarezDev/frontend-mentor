@@ -7,69 +7,108 @@
     <link rel="stylesheet" href="style.css" />
     <title>Testimonials grid section</title>
   </head>
-  <body class="font-barlow-semi-condensed p-0 m-0 box-border bg-light-white">
-    <main class="grid gap-8 m-8">
-      <section class="text-white bg-purple-500">
+  <body
+    class="font-barlow-semi-condensed p-0 m-0 box-border bg-light-white px-8"
+  >
+    <main
+      class="grid gap-8 my-8 sm:grid-cols-3 lg:grid-cols-4 max-w-5xl m-auto"
+    >
+      <article class="text-white bg-purple-500 sm:col-span-2 relative">
         <div class="alumni-card">
-          <img class="border-purple-300" src="/assets/testimonials-grid-section/images/image-daniel.jpg" alt="daniel clifford's image">
-          <p><span>Daniel Clifford</span><br/> <span class="text-[hsl(260,100%,95%)]">Verified Graduate</span></p>
+          <img
+            class="border-purple-300 alumni-photo"
+            src="/assets/testimonials-grid-section/images/image-daniel.jpg"
+            alt="daniel clifford's image"
+          />
+          <p>
+            <span class="alumni-name">Daniel Clifford</span><br />
+            <span class="text-[hsl(260,100%,95%)] graduated"
+              >Verified Graduate</span
+            >
+          </p>
         </div>
-        <h2>
+        <h2 class="relative z-40">
           I received a job offer mid-course, and the subjects I learned were
           current, if not more so, in the company I joined. I honestly feel I
           got every penny’s worth.
         </h2>
         <blockquote>
-          <p>
-            “ I was an EMT for many years before I joined the bootcamp. I’ve been
-            looking to make a transition and have heard some people who had an
-            amazing experience here. I signed up for the free intro course and
-            found it incredibly fun! I enrolled shortly thereafter. The next 12
-            weeks was the best - and most grueling - time of my life. Since
+          <p class="alumni-description text-grey-200">
+            “ I was an EMT for many years before I joined the bootcamp. I’ve
+            been looking to make a transition and have heard some people who had
+            an amazing experience here. I signed up for the free intro course
+            and found it incredibly fun! I enrolled shortly thereafter. The next
+            12 weeks was the best - and most grueling - time of my life. Since
             completing the course, I’ve successfully switched careers, working
             as a Software Engineer at a VR startup. ”
           </p>
         </blockquote>
-      </section>
-      <section class="bg-gray-500 text-white">
+        <img class="quotation" src="/assets/testimonials-grid-section/images/bg-pattern-quotation.svg" alt="quotation mark">
+      </article>
+      <article class="bg-grey-500 text-white">
         <div class="alumni-card">
-          <img src="/assets/testimonials-grid-section/images/image-jonathan.jpg" alt="jonathan walter's image">
-          <p>Jonathan Walters <br /><span class="text-gray-300">Verified Graduate</span></p>
-
+          <img
+          class="alumni-photo"
+            src="/assets/testimonials-grid-section/images/image-jonathan.jpg"
+            alt="jonathan walter's image"
+          />
+          <p>
+            <span class="alumni-name">Jonathan Walters</span><br /><span
+              class="graduated text-grey-300"
+              >Verified Graduate</span
+            >
+          </p>
         </div>
         <h2>The team was very supportive and kept me motivated</h2>
         <blockquote>
-          <p>
+          <p class="alumni-description text-grey-100">
             “ I started as a total newbie with virtually no coding skills. I now
             work as a mobile engineer for a big company. This was one of the
             best investments I’ve made in myself. ”
           </p>
         </blockquote>
-      </section>
-      <section class="text-dark-blue bg-white">
+      </article>
+      <article class="text-dark-blue shadows bg-white">
         <div class="alumni-card">
-          <img class="border-0" src="/assets/testimonials-grid-section/images/image-jeanette.jpg" alt="Jeanette Harmon's image">
-          <p><span class="font-semibold">Jeanette Harmon</span><br/>Verified Graduate</p>
-
+          <img
+            class="border-0 alumni-photo"
+            src="/assets/testimonials-grid-section/images/image-jeanette.jpg"
+            alt="Jeanette Harmon's image"
+          />
+          <p>
+            <span class="alumni-name">Jeanette Harmon</span><br /><span
+              class="graduated"
+              >Verified Graduate</span
+            >
+          </p>
         </div>
         <h2>An overall wonderful and rewarding experience</h2>
         <blockquote>
-          “ Thank you for the wonderful experience! I now have a job I really
-          enjoy, and make a good living while doing something I love. ”
+          <p class="alumni-description">
+            “ Thank you for the wonderful experience! I now have a job I really
+            enjoy, and make a good living while doing something I love. ”
+          </p>
         </blockquote>
-      </section>
-      <section class="bg-dark-blue text-gray-200">
+      </article>
+      <article class="bg-dark-blue shadows text-grey-200 sm:col-span-2">
         <div class="alumni-card">
-          <img class="border-purple-500" src="/assets/testimonials-grid-section/images/image-patrick.jpg" alt="patrick abrams's image">
-          <p>Patrick Abrams <br/>Verified Graduate</p>
+          <img
+            class="border-purple-500 alumni-photo"
+            src="/assets/testimonials-grid-section/images/image-patrick.jpg"
+            alt="patrick abrams's image"
+          />
+          <p>
+            <span class="alumni-name text-white">Patrick Abrams</span
+            ><br /><span class="graduated">Verified Graduate</span>
+          </p>
         </div>
-        <h2>
+        <h2 class="text-white">
           Awesome teaching support from TAs who did the bootcamp themselves.
           Getting guidance from them and learning from their experiences was
           easy.
         </h2>
         <blockquote>
-          <p>
+          <p class="alumni-description">
             “ The staff seem genuinely concerned about my progress which I find
             really refreshing. The program gave me the confidence necessary to
             be able to go out in the world and present myself as a capable
@@ -78,15 +117,26 @@
             and amazing people. ”
           </p>
         </blockquote>
-      </section>
-      <section class="bg-white text-dark-blue">
+      </article>
+      <article
+        class="bg-white shadows text-dark-blue sm:col-span-3 lg:col-start-4 lg:row-start-1 lg:row-end-3 lg:col-end-5"
+      >
         <div class="alumni-card">
-          <img class="border-0" src="/assets/testimonials-grid-section/images/image-kira.jpg" alt="kira whittle's image">
-          <p>Kira Whittle <br/><span class="text-gray-500">Verified Graduate</span></p>
+          <img
+            class="border-0 alumni-photo"
+            src="/assets/testimonials-grid-section/images/image-kira.jpg"
+            alt="kira whittle's image"
+          />
+          <p>
+            <span class="alumni-name">Kira Whittle</span><br /><span
+              class="text-grey-500 graduated"
+              >Verified Graduate</span
+            >
+          </p>
         </div>
         <h2>Such a life-changing experience. Highly recommended!</h2>
         <blockquote>
-          <p>
+          <p class="alumni-description">
             “ Before joining the bootcamp, I’ve never written a line of code. I
             needed some structure from professionals who can help me learn
             programming step by step. I was encouraged to enroll by a former
@@ -101,14 +151,16 @@
             recommend! ”
           </p>
         </blockquote>
-      </section>
+      </article>
     </main>
 
-    <footer class="text-[11px] text-center text-[hsl(228,45%,44%)]">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+    <footer class="text-lg text-center">
+      <p>
+        Challenge by
+        <a href="https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/isAlvarezDev" target="_blank">isAlvarezDev</a>.
+      </p>
     </footer>
   </body>
 </html>
