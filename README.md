@@ -40,7 +40,7 @@ This portfolio showcases a collection of projects I've completed following the L
         </tr>
         <tr>
             <td>
-                <img src=".public/designs/testimonials-grid-section/desktop-design.jpg" />
+                <img src="./public/designs/testimonials-grid-section/desktop-design.jpg" />
                 <h2 align='center'><a href="https://isalvarezdev.github.io/frontend-mentor/src/learning-paths/testimonials-grid-section/">Testimonials Grid Section</a></h2>
             </td>
         </tr>
