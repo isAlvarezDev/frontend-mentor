@@ -2,19 +2,20 @@
   font-display: fallback;
   font-family: "Barlow Semi Condensed";
   size-adjust: 71%;
-ascent-override: 111%;
-  src: local("Barlow Semi Condensed Medium"), local("BarlowSemiCondensed-Medium"),
+  ascent-override: 111%;
+  src: local("Barlow Semi Condensed Medium"),
+    local("BarlowSemiCondensed-Medium"),
     url("./BarlowSemiCondensed-Medium.woff2") format("woff2");
   font-weight: 500;
 }
 
 @font-face {
-    font-display: fallback;
-    font-family: "Barlow Semi Condensed";
-    size-adjust: 73%;
-    ascent-override: 109%;
-    src: local("Barlow Semi Condensed SemiBold"), local("BarlowSemiCondensed-SemiBold"),
-      url("./BarlowSemiCondensed-SemiBold.woff2") format("woff2");
-    font-weight: 600;
-  }
-  
+  font-display: fallback;
+  font-family: "Barlow Semi Condensed";
+  size-adjust: 73%;
+  ascent-override: 109%;
+  src: local("Barlow Semi Condensed SemiBold"),
+    local("BarlowSemiCondensed-SemiBold"),
+    url("./BarlowSemiCondensed-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+}
