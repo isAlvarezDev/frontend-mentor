@@ -9,6 +9,7 @@ export const createMainGridSubtitle = (languageList, difficultyList) => {
         span.className = "main__span"
         if (language === "HTML") span.classList.add("main__span--html")
         else if (language === "CSS") span.classList.add("main__span--css")
+        else span.classList.add('main__span--js')
         div.appendChild(span)
     })
     mainGridSubtitleDiv.appendChild(div)
