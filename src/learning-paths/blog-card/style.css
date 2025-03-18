@@ -1,118 +1,54 @@
-:root {
-    --small-spacing: 6px;
-    --large-spacing: 1rem;
-    --extra-large-spacing: 1.5rem;
-    --large-border-radius: 1rem;
-    --medium-border-radius: 8px;
-    --yellow: hsl(47, 88%, 63%);
-    --black: hsl(0, 0%, 7%);
-    --white: hsl(0, 0%, 100%)
+@import "tailwindcss";
+
+@theme {
+    --color-mustard-yellow: hsl(47, 88%, 63%);
+    --color-deep-gray: hsl(0, 0%, 42%);
+    --color-dark-gray: hsl(0, 0%, 7%);
+    --color-ocean: hsl(228, 45%, 44%);
+
+    --font-figtree: 'Figtree';
 }
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+@layer base {
+    * {
+        @apply box-border p-0 m-0;
+    }
+
+    body {
+        @apply grid min-h-dvh grid-rows-[1fr_auto] place-content-center place-items-center font-medium text-dark-gray bg-mustard-yellow;
+    }
+
+    h1 {
+        @apply font-figtree text-[clamp(1.1rem,5vw,1.5rem)] font-extrabold hover:text-mustard-yellow cursor-pointer
+    }
+
+    main {
+        @apply max-w-[380px] m-6 p-4 bg-white rounded-2xl shadow-[8px,8px,text-dark-gray] border-2 border-dark-gray
+    }
+
+    img {
+        @apply rounded-[8px] max-w-full
+    }
 }
 
-body {
-    display: grid;
-    min-height: 100dvh;
-    grid-template-rows: 1fr auto;
-    place-content: center;
-    place-items: center;
-    background-color: var(--yellow);
-    font-family: Figtree;
-    font-weight: 500;
-    color: var(--black);
-}
+@layer components {
+    .margin-top {
+        @apply mt-4
+    }
 
-main {
-    max-width: 380px;
-    margin: var(--extra-large-spacing);
-    padding: var(--large-spacing);
-    background-color: var(--white);
-    border-radius: var(--large-border-radius);
-    box-shadow: 8px 8px var(--black);
-    border: 1px solid var(--black);
-}
+    .main__subtitle {
+        @apply font-extrabold bg-mustard-yellow p-1.5 max-w-fit rounded-[6px]
+    }
 
-p, h1, .main__profile-section, .attribution, time {
-    margin-top: var(--large-spacing);
-    font-size: clamp(.8rem,4vw,1rem);
-}
+    .main__subtitle-hover {
+        @apply hover:bg-dark-gray hover:text-mustard-yellow
+    }
 
-h1 {
-    font-family: Figtree;
-    font-size: clamp(1.1rem,5vw,1.5rem);
-    font-weight: 800;
-}
+    .main__description {
+        @apply leading-6 text-[clamp(.8rem,4vw,1rem)] text-deep-gray
+    }
 
-h1:hover {
-    color: var(--yellow);
-    cursor: pointer;
-}
-
-img {
-    border-radius: var(--medium-border-radius);
-    max-width: 100%;
-}
-
-.main__img {
-    display: block;
-    margin: auto;
-}
-
-.main__subtitle {
-    font-weight: 800;
-    background-color: var(--yellow);
-    padding: var(--small-spacing);
-    max-width: fit-content;
-    border-radius: var(--small-spacing);
-}
-
-.main__subtitle:hover {
-    background-color: var(--black);
-    color: var(--yellow);
-}
-
-time {
-    display: block;
-}
-
-.main__description {
-    color: hsl(0, 0%, 42%);
-    line-height: 1.5;
-    font-size: clamp(.8rem,4vw,1rem);
-}
-
-.main__profile-section {
-    display: flex;
-    align-items: center;
-    gap: var(--large-spacing);
-}
-
-.main__profile-section > img {
-    width: 30px;
-}
-
-span {
-    font-weight: 800;
-}
-
-span:hover {
-    color: var(--yellow);
-}
-
-.attribution {
-    text-align: center;
-    margin-bottom: var(--medium-border-radius);
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
-.main__subtitle, h1, span {
-    transition: background-color .35s, color .35s;
+    .simple-transition {
+        @apply transition-colors duration-300
+    }
 }
