@@ -12,7 +12,7 @@
 </head>
 <body>
   <main>
-    <article class="product">
+    <article class="grid grid-cols-[repeat(2,11.5rem)] max-[29rem]:grid-cols-1 max-[29rem]:grid-rows-2">
     <section class="main__pictures">
       <picture>
         <source srcset="/assets/product-preview-card-component/images/image-product-desktop.jpg" media="(min-width: 29em)">
@@ -20,12 +20,12 @@
       </picture>
     </section>
     <section class="main__description">
-      <p class="main__perfume">P E R F U M E</p>
-      <h1>Gabrielle Essence Eau De Parfum</h1>
-      <p class="main__p">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+      <p class="text-[clamp(.45rem,0.75rem+1.5vw,.50rem)]">P E R F U M E</p>
+      <h1 class="text-[clamp(1rem,0.75rem+1.5vw,1rem)] text-black font-fraunces">Gabrielle Essence Eau De Parfum</h1>
+      <p class="text-[clamp(.45rem,0.75rem+1.5vw,.50rem)] leading-3.5">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
         Perfumer-Creator for the House of CHANEL.
       </p>
-      <div class="main__prices">
+      <div class="flex justify-between max-w-[80%] font-fraunces">
         <ins class="main__small-price">$149.99</ins>
         <del class="main__high-price">$169.99</del>
       </div>
@@ -38,9 +38,9 @@
   </article>
   </main>
 
-  <footer>
-    Challenge by <a href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/isAlvarezDev" target="_blank">isAlvarezDev</a>.
+  <footer class="text-[11px] text-center">
+    Challenge by <a class="text-ocean" href="https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="text-ocean" href="https://github.com/isAlvarezDev" target="_blank">isAlvarezDev</a>.
   </footer>
 </body>
 </html>
