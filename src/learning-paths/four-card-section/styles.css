@@ -11,7 +11,9 @@
   --color-dark-blue: hsl(228, 45%, 44%);
   --color-twilight-blue: hsla(212 86% 64% / 0.25);
 
-  --font-poppins: 'Poppins'
+  --font-poppins: 'Poppins';
+
+  --shadow-blue: 0 5px 9px hsla(212 86% 64%/0.25)
 }
 
 @layer base {
@@ -46,7 +48,7 @@
   }
 
   .card {
-    @apply p-8 rounded-[5px] shadow-[0_5px_9px_hsla(212,86%,64%,0.25)] border-t-4
+    @apply p-8 rounded-[5px] shadow-blue border-t-4
   }
 
   .card-description {
